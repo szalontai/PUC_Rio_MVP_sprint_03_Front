@@ -3,21 +3,22 @@
 
 Este projeto faz parte do material didático da Disciplina **Arquitetura de Software - Sprint 3** 
 
-Esta interface é baseada no site https://dogs.origamid.dev/, que uma rede social de fotos de cachorros. Ele é totalmente feito no curso  de React do site https://www.origamid.com/.
-As API´s do site são feitas em WordPress. 
+Esta interface é baseada no site https://dogs.origamid.dev/, que é uma rede social de fotos de cachorros. Ele é todo feito no curso de React do site https://www.origamid.com/.
+As API´s que o site utiliza são feitas em WordPress. 
 
 
-Para uso da aplicação no curso, o frontend foi adpatado para ser uma rede social de fotos de residências, usando React e Vite. O backend foi totalmente criado em Python e Flask. 
+Para uso da aplicação no curso, o frontend foi adpatado para ser uma rede social de fotos de residências, usando React e Vite. O backend foi criado em Python e Flask. 
+
+O esquema de funcionamento da aplicação com os componentes está no arquivo esquema.pdf
 
 As rotas estão acessando as seguintes URL´s.
 
 USER_URL    = "http://127.0.0.1:5173/login/resetar" - URL que é enviada para o microserviço de gestão de acesso via rota /user/password_lost
-
 API_TOKEN   = "http://127.0.0.1:5020" - URL do microserviço de gestão de acesso.
-API_PHOTO   = "http://127.0.0.1:5030" - URL do microserviço de gestão de foto, que é acessada para buscar as fotos de todos os usuários. 
+API_PHOTO   = "http://127.0.0.1:5030" - URL do microserviço de gestão de foto, que é acessada para buscar as fotos de todos os usuários sem a necessidade do token. 
 
 
-As rotas estão todas agrupdas no arquivo Api.jsx através das seguintes funções:
+As rotas estão todas agrupadas no arquivo Api.jsx através das seguintes funções:
 
 
 **USER_POST**    - Faz a chamada da rota /user/post
