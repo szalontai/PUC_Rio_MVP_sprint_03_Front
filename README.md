@@ -20,41 +20,29 @@ API_PHOTO   = "http://127.0.0.1:5030" - URL do microserviço de gestão de foto,
 As rotas estão todas agrupdas no arquivo Api.jsx através das seguintes funções:
 
 
-**USER_POST** 
-    - Faz a chamada da rota /user/post
+**USER_POST**    - Faz a chamada da rota /user/post
 
-**USER_GET**  
-    - faz a chamada da rota /user/get
+**USER_GET**    - faz a chamada da rota /user/get
 
-**TOKEN_GET**  
-    - faz a chamada da rota /token/get
+**TOKEN_GET**    - faz a chamada da rota /token/get
 
-**TOKEN_VALIDATE_GET**  
-    - faz a chamada da rota /token/validate
+**TOKEN_VALIDATE_GET**    - faz a chamada da rota /token/validate
 
-**PHOTO_POST**  
-    - faz a chamada da rota /photo/post
+**PHOTO_POST**    - faz a chamada da rota /photo/post
 
-**PHOTO_PUT**  
-    - faz a chamada da rota /photo/put
+**PHOTO_PUT**    - faz a chamada da rota /photo/put
 
-**PHOTOS_GET**  
-    - faz a chamada da rota /photos/get com o token
+**PHOTOS_GET**    - faz a chamada da rota /photos/get com o token
 
-**PHOTOS2_GET**  
-    - faz a chamada da rota /photos/get sem o token
+**PHOTOS2_GET**    - faz a chamada da rota /photos/get sem o token
 
-**PHOTO_GET**  
-    - faz a chamada da rota /photo/get com o token
+**PHOTO_GET**    - faz a chamada da rota /photo/get com o token
 
-**PHOTO2_GET**  
-    - faz a chamada da rota /photo/get sem o token
+**PHOTO2_GET**    - faz a chamada da rota /photo/get sem o token
 
-**PHOTO_DELETE**  
-    - faz a chamada da rota /photo/delete
+**PHOTO_DELETE**    - faz a chamada da rota /photo/delete
 
-**CEP_GET**  
-    - faz a chamada da rota /cep/get
+**CEP_GET**    - faz a chamada da rota /cep/get - **Essa é a chamada da API externa - Componente B**
 
 
 
