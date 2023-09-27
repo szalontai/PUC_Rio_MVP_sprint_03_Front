@@ -77,7 +77,6 @@ Uma vez criada a imagem, para executar o container basta executar, **como admini
 
 ```
 $ docker run -p 5173:5173 front-service
-<!-- $ docker run -d --rm -p 5173:5173 front-service:2.0 -->
 ```
 
 Uma vez executando, para acessar a API, basta abrir o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador.
