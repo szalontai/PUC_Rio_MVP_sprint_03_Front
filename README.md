@@ -1,8 +1,4 @@
-
-- npm run dev
-
-
-# Componente A - FRONT - interface de usuário baseada no site  https://dogs.origamid.dev/
+# Componente A - FRONT - Rede social de fotos de residências
 
 
 Este projeto faz parte do material didático da Disciplina **Arquitetura de Software - Sprint 3** 
