@@ -11,6 +11,8 @@ Para uso da aplicação no curso, o frontend foi adpatado para ser uma rede soci
 
 O esquema de funcionamento da aplicação com os componentes está no arquivo esquema.pdf
 
+![image](https://github.com/szalontai/PUC_Rio_MVP_sprint_03_Front/assets/3637113/d6e15c8d-76f5-4ebb-b670-6a463a22778f)
+
 As rotas estão acessando as seguintes URL´s.
 
 USER_URL    = "http://127.0.0.1:5173/login/resetar" - URL que é enviada para o microserviço de gestão de acesso via rota /user/password_lost
